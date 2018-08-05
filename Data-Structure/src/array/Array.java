@@ -161,4 +161,14 @@ public class Array<E> {
 
     }
 
+    //获取数组的最后一个元素
+    public E getLast(){
+        return get(size - 1);
+    }
+
+    //获取数组的第一个元素
+    public E getFirst(){
+        return get(0);
+    }
+
 }
